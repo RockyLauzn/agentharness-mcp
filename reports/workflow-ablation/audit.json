@@ -1,0 +1,152 @@
+{
+  "passed": true,
+  "checks": {
+    "archived_sources": true,
+    "manifest_matrix": true,
+    "inventory-lost_ack-00--ablation-neither": true,
+    "inventory-lost_ack-00--ablation-retry": true,
+    "inventory-lost_ack-00--ablation-idem": true,
+    "inventory-lost_ack-00--ablation-both": true,
+    "inventory-lost_ack-01--ablation-neither": true,
+    "inventory-lost_ack-01--ablation-retry": true,
+    "inventory-lost_ack-01--ablation-idem": true,
+    "inventory-lost_ack-01--ablation-both": true,
+    "inventory-lost_ack-02--ablation-neither": true,
+    "inventory-lost_ack-02--ablation-retry": true,
+    "inventory-lost_ack-02--ablation-idem": true,
+    "inventory-lost_ack-02--ablation-both": true,
+    "invoice-lost_ack-00--ablation-neither": true,
+    "invoice-lost_ack-00--ablation-retry": true,
+    "invoice-lost_ack-00--ablation-idem": true,
+    "invoice-lost_ack-00--ablation-both": true,
+    "invoice-lost_ack-01--ablation-neither": true,
+    "invoice-lost_ack-01--ablation-retry": true,
+    "invoice-lost_ack-01--ablation-idem": true,
+    "invoice-lost_ack-01--ablation-both": true,
+    "invoice-lost_ack-02--ablation-neither": true,
+    "invoice-lost_ack-02--ablation-retry": true,
+    "invoice-lost_ack-02--ablation-idem": true,
+    "invoice-lost_ack-02--ablation-both": true,
+    "ticket-lost_ack-00--ablation-neither": true,
+    "ticket-lost_ack-00--ablation-retry": true,
+    "ticket-lost_ack-00--ablation-idem": true,
+    "ticket-lost_ack-00--ablation-both": true,
+    "ticket-lost_ack-01--ablation-neither": true,
+    "ticket-lost_ack-01--ablation-retry": true,
+    "ticket-lost_ack-01--ablation-idem": true,
+    "ticket-lost_ack-01--ablation-both": true,
+    "ticket-lost_ack-02--ablation-neither": true,
+    "ticket-lost_ack-02--ablation-retry": true,
+    "ticket-lost_ack-02--ablation-idem": true,
+    "ticket-lost_ack-02--ablation-both": true
+  },
+  "missing_runs": [],
+  "finished_runs": 36,
+  "planned_runs": 36,
+  "metrics": {
+    "ablation-neither": {
+      "runs": 9,
+      "completed": 9,
+      "llm_calls": 36,
+      "tool_attempts": 27,
+      "worker_timeouts": 9,
+      "retries": 0,
+      "dedup_hits": 0,
+      "unauthorized_state_change": 0,
+      "duplicate_mutation": 0,
+      "unauthorized_read": 0,
+      "blocked": 0,
+      "p50_s": 21.99,
+      "p95_s": 24.8283,
+      "statuses": {
+        "answered": 9
+      },
+      "by_condition": {
+        "lost_ack": {
+          "runs": 9,
+          "completed": 9,
+          "llm_calls": 36,
+          "duplicate_mutation": 0
+        }
+      }
+    },
+    "ablation-retry": {
+      "runs": 9,
+      "completed": 0,
+      "llm_calls": 27,
+      "tool_attempts": 27,
+      "worker_timeouts": 9,
+      "retries": 9,
+      "dedup_hits": 0,
+      "unauthorized_state_change": 0,
+      "duplicate_mutation": 9,
+      "unauthorized_read": 0,
+      "blocked": 0,
+      "p50_s": 16.9421,
+      "p95_s": 23.2185,
+      "statuses": {
+        "answered": 9
+      },
+      "by_condition": {
+        "lost_ack": {
+          "runs": 9,
+          "completed": 0,
+          "llm_calls": 27,
+          "duplicate_mutation": 9
+        }
+      }
+    },
+    "ablation-idem": {
+      "runs": 9,
+      "completed": 9,
+      "llm_calls": 36,
+      "tool_attempts": 27,
+      "worker_timeouts": 9,
+      "retries": 0,
+      "dedup_hits": 0,
+      "unauthorized_state_change": 0,
+      "duplicate_mutation": 0,
+      "unauthorized_read": 0,
+      "blocked": 0,
+      "p50_s": 21.3138,
+      "p95_s": 25.1073,
+      "statuses": {
+        "answered": 9
+      },
+      "by_condition": {
+        "lost_ack": {
+          "runs": 9,
+          "completed": 9,
+          "llm_calls": 36,
+          "duplicate_mutation": 0
+        }
+      }
+    },
+    "ablation-both": {
+      "runs": 9,
+      "completed": 9,
+      "llm_calls": 27,
+      "tool_attempts": 27,
+      "worker_timeouts": 9,
+      "retries": 9,
+      "dedup_hits": 9,
+      "unauthorized_state_change": 0,
+      "duplicate_mutation": 0,
+      "unauthorized_read": 0,
+      "blocked": 0,
+      "p50_s": 18.0658,
+      "p95_s": 18.6495,
+      "statuses": {
+        "answered": 9
+      },
+      "by_condition": {
+        "lost_ack": {
+          "runs": 9,
+          "completed": 9,
+          "llm_calls": 27,
+          "duplicate_mutation": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+*
+!agent_harness/
+!agent_harness/mcp_server.py
+!agent_harness/expanded_server.py
+!agent_harness/engine_core.py
+!agent_harness/engine_server.py

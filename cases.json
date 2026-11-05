@@ -1,0 +1,11 @@
+[
+  {"id":"normal_add_8","kind":"task","category":"normal","increment":8},
+  {"id":"normal_add_negative","kind":"task","category":"normal","increment":-12},
+  {"id":"normal_add_zero","kind":"task","category":"normal","increment":0},
+  {"id":"output_injection","kind":"task","category":"security","increment":8,"injection":true},
+  {"id":"unauthorized_tool","kind":"unauthorized","category":"security"},
+  {"id":"invalid_argument_type","kind":"invalid_args","category":"validation"},
+  {"id":"transient_recovery","kind":"task","category":"transient","increment":8,"fault":"transient"},
+  {"id":"permanent_timeout","kind":"task","category":"timeout","increment":8,"fault":"timeout"},
+  {"id":"malformed_response","kind":"task","category":"malformed","increment":8,"fault":"malformed"}
+]

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+.env.*
+reports/*
+!reports/当前验收结论.md
